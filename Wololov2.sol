@@ -11,7 +11,7 @@ contract WOLOLO is ERC20, Pausable, Ownable, ERC20Permit {
     mapping (address=>bool) whitelist;
 
     constructor() ERC20("WOLOLO", "WOL") ERC20Permit("WOLOLO") {
-        _mint(msg.sender, 1000000 * 10 ** decimals());
+        _mint(address(this), 1000000 * 10 ** decimals());
         whitelist[msg.sender] = true;
     }
 
