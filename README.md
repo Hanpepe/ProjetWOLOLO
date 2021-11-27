@@ -12,7 +12,7 @@
 - Whitelist
 - ClaimToken
 
-**Front-end avec intégration web3**
+**Front-end avec intégration web3:**
 - Connect/Disconnect
 - Balance
 - Claim 
